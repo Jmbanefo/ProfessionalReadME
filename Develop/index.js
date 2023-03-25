@@ -32,7 +32,7 @@ const questions = [
 {
     type: 'input',
     message: 'Please provide links to collaborators, third-pary assets, and tutorials that contributed to the project:',
-    name: 'credits'
+    name: 'credits', 
 },
 
 { 
@@ -44,7 +44,8 @@ const questions = [
 { 
     type: 'list', 
     message: "What license would you like to choose?", 
-    name: ["MIT", "APACHE 2.0", "GPL v3", "BSD 3", "None"],
+    choices: ["MIT", "APACHE 2.0", "GPL v3", "BSD 3", "None"],
+    name: "license"
 },
 
 { 
