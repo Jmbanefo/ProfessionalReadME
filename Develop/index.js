@@ -73,7 +73,7 @@ function init() {
 inquirer.prompt(questions) 
     .then (answer => {
         console.log(answer)
-        writeToFile(('READMEDRAFT.md', answer))
+        writeToFile('READMEDRAFT.md', answer)
     })
 }
 
