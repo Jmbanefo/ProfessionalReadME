@@ -59,38 +59,38 @@ function renderLicenseBadge(license) {
   function generateMarkdown(data) {
     return `# ${data.title}
   
-    ${renderLicenseBadge(data.license)}
-    ${data.description}
+  ${renderLicenseBadge(data.license)}  
+  ${data.description}
 
-    ## Table of Contents
-    * [Installation](#installation)
-    * [Usage](#usage)
-    * [Credits](#credits)
-    * [Tests](#tests)
-    * [License](#license)
-    * [Questions](#questions)
+  ## Table of Contents
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [Credits](#credits)
+  * [Tests](#tests)
+  * [License](#license)
+  * [Questions](#questions)
   
-    ## Installation 
-      ${data.setup}
+  ## Installation 
+  ${data.setup}
   
-    ## Usage
-      ${data.usage}
+  ## Usage
+  ${data.usage}
   
-    ## Credits
-      ${data.credits}
+  ## Credits
+  ${data.credits}
 
-    ## Tests
-      ${data.testing}
+  ## Tests
+  ${data.testing}
     
-    ## License 
-    ${renderLicenseSection(data.license)}
-    ${renderLicenseLink(data.license)}
+  ## License 
+  ${renderLicenseSection(data.license)}
+  ${renderLicenseLink(data.license)}
 
 
-    ## Questions
-      GitHub: [${data.username}](github.com/${data.username})
-      Email: ${data.email}
-    Please use the email address above to and reach out to me with an additional questions. 
+  ## Questions
+  GitHub Username: [${data.username}](github.com/${data.username})
+  Email: ${data.email}
+  Please use the email address above to and reach out to me with an additional questions. 
         `;
  
 }
