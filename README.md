@@ -31,5 +31,5 @@
   ## Questions
   GitHub Username: [Jmbanefo](github.com/Jmbanefo)
   Email: mbanefojustin@gmail.com
-  Please use the email address above to and reach out to me with an additional questions. 
+Please use this email address to reach out with any additional questions. 
         
