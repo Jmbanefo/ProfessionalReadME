@@ -2,7 +2,9 @@
   
   ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)  
   This project quickly generates a professional README markdown file. It prompts the user for a description of the app, instructions on how to install & use the app, and other important information. 
-
+  
+  Here is a link to a video on how the application works: https://watch.screencastify.com/v/uCbZsWp5T1oFue3wtEFP
+  
   ## Table of Contents
   * [Installation](#installation)
   * [Usage](#usage)
